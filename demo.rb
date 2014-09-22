@@ -20,7 +20,7 @@ a3 = Article.new("kate.png", "Classics", "Consider this, vagrants!", \
                 "The other is something well worth consideration by the thoughtful reader as well as the itinerant browser.")
 
   get '/' do
-    actual_article = File.read(File.dirname(__FILE__) + "/articles/xprog-layout/xprog-layout.md")
+    actual_article = File.read(settings.public_folder + "/articles/xprog-layout/xprog-layout.md")
     @article = markdown actual_article
 
     #markdown = RDiscount.new(actual_article)
@@ -34,6 +34,6 @@ a3 = Article.new("kate.png", "Classics", "Consider this, vagrants!", \
   end
 
   get '/image/:img' do
-    send_file File.join('articles/xprog-layout/', params[:img]), :type => 'image/jpeg', :disposition => 'inline'
+    send_file File.join('public/articles/xprog-layout/', params[:img]), :type => 'image/jpeg', :disposition => 'inline'
   end
 end
