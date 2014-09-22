@@ -1,0 +1,21 @@
+Air:new xprog ron$ sudo gem install shotgun
+Air:new xprog ron$ shotgun demo.rb
+^CAir:new xprog ron$ shotgun -p 4242 demo.rb
+c^CAir:new xprog ron$ shotgun config.ru
+
+Your Gemfile has no gem server sources. If you need gems that are not already on
+your machine, add a line like this to your Gemfile:
+source 'https://rubygems.org'
+Could not find gem 'kramdown (>= 0) ruby' in the gems available on this machine.
+Air:new xprog ron$ bundle install
+
+Air:new xprog ron$ shotgun config.ru
+(runs on 9393 by default i think)
+
+
+ERROR:  Could not find a valid gem 'sinatra' (>= 0), here is why:
+          Unable to download data from https://rubygems.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://s3.amazonaws.com/production.s3.rubygems.org/latest_specs.4.8.gz)
+Air:local ron$ rvm osx-ssl-certs update all
+Air:local ron$ gem install sinatra
+
+Air:local ron$ gem install rspec

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>XProg home page</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>XProgramming.com</h1>
+            <h2>Favorites</h2>
+
+            <div class="row">
+                <% @fave.each do |s| %>
+                <!--<div class="left">-->
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <h3><%= s.header %></h2>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="<%= s.icon%>" width="75px%"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <h4><%= s.title %></h4>
+                                    <%= s.content %>
+                                </div>
+                            </div>
+                    </div>
+                <% end %>
+            </div>
+        </div>
+    </div>
+
+    <!--<div style="width: 700px;word-wrap: break-word;">-->
+    <div class="container">
+        <hr/>
+        <%= @article %>
+    </div>
+    <div class="container">
+        <hr/>
+        <p>This is at the bottom of the page</p>
+    </div>
+</body>
+</html>
