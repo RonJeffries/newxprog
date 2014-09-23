@@ -1,3 +1,9 @@
+---
+title: XProg - Progress
+category: Articles
+precis: Progress report on the ongoing XProgramming rewrite.
+---
+
 #  XProg - Progress etc. 
 
 Tozier and I worked on the new thing yesterday. I had written a little article with a picture in it, to drive our plan of keeping each article in a folder named by its "slug", with pictures and metadata in that same folder. 

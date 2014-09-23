@@ -1,3 +1,8 @@
+---
+title: "Xprog - Working with Layout"
+category: Kate Oneal
+---
+
 # XProg - Working with layout
 
 I've been trying to learn some things about how the new implementation will handle the front page. The front page has a top row the most recent articles in two categories, "Beyond Agile" and "The Annals of Kate Oneal", and a randomly selected "Classic" article.

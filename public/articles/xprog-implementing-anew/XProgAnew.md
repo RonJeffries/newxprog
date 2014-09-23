@@ -1,3 +1,7 @@
+title: XProg - Implementing
+category: Articles
+---
+
 # XProg - Implementing the site anew
 
 XProgramming.com is implemented using WordPress. A number of things make me feel I need to re-implement it. It needs a look and feel revamping; my webmistress is moving on; WordPress updates *almost* always just work; the existing implementation is crufty; it might be fun; I have a pal who's doing something similar; and so on.

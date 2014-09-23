@@ -1,3 +1,8 @@
+title: Language of Hatred
+category: Beyond Agile
+precis: This is a NSFW rant regarding the whiny, mewling *bastards* who bitch, whine, and complain about Agile methods, Scrum, and similar topics.
+---
+
 # Language of Hatred: Must we?
 
 Many people -- or maybe it's just a few loud people -- use the language of hatred to discuss topics around Agile, Scrum, XP, TDD, ... all those things that have grown up around the Agile Manifesto. Here are a few paraphrased examples:
