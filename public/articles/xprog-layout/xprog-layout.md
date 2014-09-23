@@ -115,9 +115,7 @@ Now let's look at the template for this page, in the file frontpage.erb. It look
 <div class="row">
 <div class="col-md-8 col-lg-8">
 
-Let me call out a few things of note. Up in the header, there are some meta lines and a link. I copied those directly from the book. I am not entirely clear what they do, and not very worried about it. There's a lot that I do (nearly) understand, so I'm happy about that. Oh, and here's a picture. 
-
-![](image/narrow.png){: style="float:right;" width="300"}
+Let me call out a few things of note. Up in the header, there are some meta lines and a link. I copied those directly from the book. I am not entirely clear what they do, and not very worried about it. There's a lot that I do (nearly) understand, so I'm happy about that. 
 
 Down after that empty line, we have a div with class of "row", then a patch of code, embedded in script brackets, saying `@fave.each do | s |`. That's an embedded ruby statement opening a loop over the instance variable @fave. That this works tells us that somehow, this HTML page has access to our instance variables. It is as if it is part of our code: inside this erb file, self.class returns SinatraDemo, the name of the Ruby class shown above. I have no idea how this works. I'd like to know someday but for now it's just another magic incantation.
 
