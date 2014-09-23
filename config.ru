@@ -3,5 +3,5 @@ require 'bundler'
 
 Bundler.require
 
-require './demo'
-run SinatraDemo
+require './xprogramming-handler.rb'
+run XprogrammingHandler
