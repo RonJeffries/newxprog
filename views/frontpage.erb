@@ -28,28 +28,22 @@
                 </div>
             <% end %>
         </div>
+    </div>
 
         <h2>Recent Articles</h2>
 
-        <div class="row">
+        <div style="padding: 0em 5em;">
             <% @the_rest.each do |s| %>
-                <div class="col-md-3 col-sm-6">
-                    <h3><%= s.category %></h3>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="<%= s.icon%>" width="75px%"/>
-                        </div>
-                        <div class="col-md-8">
-                            <h4><%= s.title %></h4>
+                        <div>
+                            <img style="float:left; " src="<%= s.icon%>" width="75px%"/>
+                                <h3><%= s.title%></h3>
+                                <h4>(<%=s.category%>)</h4>
                             <%= s.blurb %>
                         </div>
-                    </div>
-                </div>
             <% end %>
         </div>
 
         <hr/>
         <p>This is at the bottom of the page</p>
-    </div>
 </body>
 </html>

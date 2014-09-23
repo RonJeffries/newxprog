@@ -39,7 +39,7 @@ class XprogrammingHandler < Sinatra::Base
       Article.new(picture_name, category, headers["title"], markdown(precis) )
     end
     (0..20).each do |i|
-      articles << Article.new("kate.png", "Articles", "Dummy Article #{i}", "Dummy Precis which has now been made about as long as the other <br><br><br><br>")
+      articles << Article.new("kate.png", "Kate Oneal", "Dummy Title #{i}", "Dummy Precis which has now been made about as long as the other ")
     end
     @favorites = articles[0..2]
     @the_rest = articles[3..-1]
