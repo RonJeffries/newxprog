@@ -17,6 +17,8 @@ h1,h2,h3,h4 {
     font-family:Helvetica,sans-serif;
 }
 
+/* tiling the article slugs */
+
 #favorites ul li {
     width:33%;
     background-color: lightblue;
@@ -31,6 +33,8 @@ h1,h2,h3,h4 {
     vertical-align: top;
 }
 
+/* sizing the icons */
+
 #favorites .icon > img {
     width: 75px;
 }
@@ -39,10 +43,13 @@ h1,h2,h3,h4 {
     width: 50px;
 }
 
+/* styling the slug text */
+
 .title {
     font-family:Helvetica,sans-serif;
     font-weight: 700;
-} 
+    text-align: right;
+}
 
 #favorites .category {
     font-family:Helvetica,sans-serif;
@@ -55,3 +62,11 @@ h1,h2,h3,h4 {
     font-weight: 700;
 }
 
+/* arranging the slug contents */
+.title, .precis, .icon, .category {
+    display: inline-block;
+}
+
+.category, .precis {
+    width: 100%;
+}
