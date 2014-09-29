@@ -1,3 +1,7 @@
+title: "XProg - Stories"
+category: Articles
+---
+
 # XProgramming Stories
 
 Date last edited: 20140926

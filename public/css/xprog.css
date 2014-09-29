@@ -1,0 +1,40 @@
+
+
+html {
+    font-family:Georgia,serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+body {
+    background-color:linen;
+}
+
+h1,h2,h3,h4 {
+    font-family:Helvetica,sans-serif;
+}
+
+#favorites .icon > img {
+    width: 75px;
+}
+
+#recents .icon > img {
+    width: 50px;
+}
+
+.title {
+    font-family:Helvetica,sans-serif;
+    font-weight: 700;
+} 
+
+#favorites .category {
+    font-family:Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#recents .category {
+    font-family:Helvetica,sans-serif;
+    font-weight: 700;
+}
+

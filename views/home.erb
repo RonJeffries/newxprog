@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XProgramming.com</title>
+    <link rel="stylesheet" href="css/xprog.css">
+</head>
+<body>
+    <header>
+        <h1>XProgramming.com</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>who</li>
+            <li>what</li>
+            <li>where</li>
+            <li>why? because we like you.</li>
+        </ul>
+    </nav>
+    <section id="favorites"> 
+        <h1>Favorites</h1>
+        <ul>
+            <% @favorites.each do |s| %>
+                <li>
+                    <article class="slug">
+                        <div class="category"><%= s.category %></div>
+                        <div class="icon"><img src="<%= s.icon %>" /></div>
+                        <div class="title"><%= s.title %></div>
+                        <div class="precis"><%= s.blurb %></div>
+                    </article>
+                </li>
+            <% end %>
+        </ul>
+    </section>
+
+    <section id="recents"> 
+        <h1>Recent Articles</h1>
+        <ul>
+        <% @the_rest.each do |s| %>
+            <li>
+                <article class='slug'>
+                    <div class="icon"><img src="<%= s.icon%>" /></div>
+                    <div class="title"><%= s.title%></div>
+                    <div class="category">(<%=s.category%>)</div>
+                    <div class="precis"><%= s.blurb %></div>
+                </article>
+            </li>
+        <% end %>
+        </ul>
+    </section>
+
+    <footer>
+        <p>The footer</p>
+    </footer>
+
+</body>
+</html>
