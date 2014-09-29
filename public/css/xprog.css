@@ -1,4 +1,7 @@
-
+* {
+    margin:0;
+    padding:0;
+}    
 
 html {
     font-family:Georgia,serif;
@@ -12,6 +15,20 @@ body {
 
 h1,h2,h3,h4 {
     font-family:Helvetica,sans-serif;
+}
+
+#favorites ul li {
+    width:33%;
+    background-color: lightblue;
+    display:inline-block;
+    vertical-align: top;
+}
+
+#recents ul li {
+    width:25%;
+    background-color: lightpink;
+    display:inline-block;
+    vertical-align: top;
 }
 
 #favorites .icon > img {
