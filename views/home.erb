@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>XProgramming.com</title>
-    <link rel="stylesheet" href="css/xprog.css">
+    <link rel="stylesheet" href="/css/xprog.css">
 </head>
 <body>
     <header>
@@ -24,8 +24,12 @@
                     <article class="slug">
                         <div class="category"><%= s.category %></div>
                         <div class="icon"><img src="<%= s.icon %>" /></div>
-                        <div class="title"><%= s.title %></div>
-                        <div class="precis"><%= s.blurb %></div>
+                        <a href="<%= s.link %>">
+                            <div>
+                                <div class="title"><%= s.title %></div>
+                                <div class="precis"><%= s.blurb %></div>
+                            </div>
+                        </a>
                     </article>
                 </li>
             <% end %>

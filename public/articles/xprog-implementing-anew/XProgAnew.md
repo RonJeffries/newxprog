@@ -24,7 +24,7 @@ Bill's using Ruby, Sinatra, and the usual suspects, and since I like Ruby, why n
 
 Here's a picture I drew during our early chat on the project. I include it mostly so that we'll have to implement pictures.
 
-![](image/updown.png){:.float-right width="600"}
+![](updown.png){:.float-right width="600"}
 
 We'll pair on most everything, and test-drive what makes sense to test-drive. I don't find it easy to stick to my guns on testing things like web sites, especially with small steps, modular code, and very visible effects. So I've asked Bill to be sure to push on that.
 
