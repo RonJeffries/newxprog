@@ -18,16 +18,21 @@
     </nav>
     <section id="favorites"> 
         <h1>Favorites</h1>
+        <div class="flex">
             <% @favorites.each do |s| %>
-                <h2><img src="<%= s.icon %>" /> <%= s.category %></h2>  <!-- needs link -->
+            <div>
+                <img src="<%= s.icon %>" />
+                <h2> <%= s.category %></h2>  <!-- needs link -->
                 <a href="<%= s.link %>">
                     <article class="favorite-slug">
                         <h1><%= s.title %></h1>
                         <%= s.precis %>
                     </article>
                 </a>
+            </div>
             <% end %>
-        </section>
+        </div>
+    </section>
 
     <section id="recents"> 
         <h1>Recent Articles</h1>

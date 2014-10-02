@@ -15,7 +15,7 @@ h1,h2,h3,h4 {
 }
 
 #favorites img {
-    width: 75px;
+    width: 40px;
 }
 
 #recents img {
@@ -36,5 +36,44 @@ h1,h2,h3,h4 {
 #recents .category {
     font-family:Helvetica,sans-serif;
     font-weight: 700;
+}
+
+.flex { 
+    display: -webkit-flex;
+    display: flex;
+   
+    -webkit-flex-direction: row;
+    flex-direction: row;
+
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    
+    -webkit-align-content: flex-start;
+    align-content: flex-start;
+}
+
+.flex div {
+    width: 300px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.flex h2 {
+    margin: 0px;
+}
+
+.flex div img {
+    margin-left: -40px;
+    float: left;
+}
+
+.flex article {
+    margin-left: 5px;
 }
 
