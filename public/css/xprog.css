@@ -14,11 +14,11 @@ h1,h2,h3,h4 {
     font-family:Helvetica,sans-serif;
 }
 
-#favorites .icon > img {
+#favorites img {
     width: 75px;
 }
 
-#recents .icon > img {
+#recents img {
     width: 50px;
 }
 

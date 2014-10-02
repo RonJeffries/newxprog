@@ -9,7 +9,7 @@ class XprogrammingHandler < Sinatra::Base
   set :markdown, :parse_block_html => true
   set :markdown, :smartypants => true
 
-  Article = Struct.new(:icon, :category, :title, :blurb, :link) 
+  Article = Struct.new(:icon, :category, :title, :precis, :link) 
 
   def getPicture(category)
     case category.downcase
