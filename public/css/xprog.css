@@ -59,7 +59,11 @@ h1,h2,h3,h4 {
 }
 
 .flex div {
-    width: 300px;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+
+    -webkit-flex-basis: 300px;
+    flex-basis: 300px;
     margin-left: 40px;
     margin-bottom: 30px;
 }
