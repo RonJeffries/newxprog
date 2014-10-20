@@ -13,6 +13,16 @@ Many people -- or maybe it's just a few loud people -- use the language of hatre
 * Scrum meetings are bullshit
 * Everyone in Agile is just in it for the money
 
+![](xprogspot.svg){: width="50"}
+
+![](xprogspot.svg){: width="100"}
+
+![](xprogspot.svg){: width="300px"}
+
+![](xprogspot.svg){: width="500"}
+
+![](xprogspot.svg){: width="700"}
+
 It goes on and on. And not only is it irritating, it's not helpful. Literally not helpful. These statements do not help anyone in any way. Sometimes -- I choose to believe -- the author is trying to warn his readers away from some particular bad things. The bad things could be real:
 
 * Doing Scrum things as a matter of faith, not thinking, is a bad idea. Doing them thoughtfully can be quite useful.

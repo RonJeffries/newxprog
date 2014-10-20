@@ -6,7 +6,7 @@ set :static, false
 
 class XprogrammingHandler < Sinatra::Base
 
-  set :markdown, :parse_block_html => true
+  set :markdown, :parse_block_html => false
   set :markdown, :smartypants => true
 
   Article = Struct.new(:icon, :category, :title, :precis, :link) 

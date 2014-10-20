@@ -19,6 +19,8 @@ The original home page looks like this:
 
 Thinking about the entities represented on that page, coming from the articles repository, we have a couple of collections of articles. For each one we need to have a picture, a title, and a precis. Each article needs to know those things, it seems to me, and deliver them to the page to be rendered.
 
+![](ronsig.svg)
+
 We also have a "header" which is the bit that says "Beyond Agile" and so on. We could go one of at least two ways on that. We could have the header string in the HTML, or we could provide it as part of the article. It seems to me that selecting what will be in that top row is a decision, and one that is kind of a "site strategy". Rather than have the page be edited when this list changes, I am inclined to make the change in the model -- that is, in the code that supports the page and provides its content.
 
 So my plan is that the "Article" will provide a header, a little picture (icon), a title, and a precis. I'm only part way there right now. The Ruby / Sinatra code looks like this:
